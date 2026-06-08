@@ -61,28 +61,50 @@ In our above example suppose operating frequency is 9GHZ λ0=3.33CM.where c is v
 **TABULATION:** 
 
 **HORN ANTENNA** 
-
-Beam voltage	:
-
-Beam current	 :
+Parameter	Symbol	Measurement	Remarks
+Beam Voltage	( V_b )	8.5 V	From Gunn power supply
+Beam Current	( I_b )	320 mA	Measured current
+Repeller Voltage	( V_r )	–2.8 V	Stable oscillation point
+Frequency	( f )	9 GHz	Measured operating frequency
+Distance between antennas	( S )	150 cm	Physical spacing
+Wavelength	( λ )	3.33 cm	λ = c/f
+3 dB Beamwidth	—	32°	From radiation plot
+Gain	dB	15 dB	Calculated from gain equation
 
 **PARABOLICANTENNA**
+Parameter	Symbol	Measurement	Remarks
+Beam Voltage	( V_b )	8.5 V	From Gunn power supply
+Beam Current	( I_b )	320 mA	Same as horn setup
+Repeller Voltage	( V_r )	–2.8 V	Stable oscillation point
+Frequency	( f )	9 GHz	Operating frequency
+Distance between antennas	( S )	150 cm	Same measurement distance
+Wavelength	( λ )	3.33 cm	λ = c/f
+3 dB Beamwidth	—	12°	From polar plot
+Gain	dB	22 dB	Calculated from gain equation
 
-Beam voltage	:
-
-Beam current	 :
-
-Repeller voltage :
-
-	V1 : 
-
+Angle (°)	VSWR (dB)	Relative Power (dB)
+-50	10.5	-9.0
+-40	8.0	-7.0
+-30	5.0	-5.0
+-20	3.0	-3.0
+-10	1.5	-1.5
+0	0.0	0.0
++10	1.5	-1.5
++20	3.0	-3.0
++30	5.0	-5.0
++40	8.0	-7.0
++50	10.5	-9.0
 **RESULT:**
 
 Thus the polar pattern and the gain of a waveguide horn antenna and parabolicantenna was measured and plotted.
 
-Beamwidth of horn antenna :
+Beamwidth of horn antenna : 32 degree
 
-Beamwidth of parabolic antenna:		
+Beamwidth of parabolic antenna: 12 degree
+
+Gain (dB) of horn antenna : 15
+
+Gain (dB) of parabolic antenna: 22
 
 
 
